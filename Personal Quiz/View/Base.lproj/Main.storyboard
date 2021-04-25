@@ -221,12 +221,6 @@
                             <constraint firstItem="8HY-Rg-2Rc" firstAttribute="leading" secondItem="268-Nz-4OZ" secondAttribute="leading" constant="20" id="gyD-R7-y9z"/>
                             <constraint firstItem="268-Nz-4OZ" firstAttribute="trailing" secondItem="o3A-iC-ZkT" secondAttribute="trailing" constant="20" id="m0h-7q-rxk"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="o3A-iC-ZkT"/>
-                                <exclude reference="8HY-Rg-2Rc"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="HP9-8Y-DeG">
                         <barButtonItem key="rightBarButtonItem" title="3 -&gt;" id="mkX-sD-FnK">
