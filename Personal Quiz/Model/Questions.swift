@@ -22,7 +22,7 @@ extension Questions {
                             Answer(text: "Кукуруза", type: .turtle)
                           ]
             ), Questions(text: "что вам нравится больше?",
-                         type: .single,
+                         type: .multiple,
                          answers: [
                            Answer(text: "Плавать", type: .dog),
                            Answer(text: "Спать", type: .cat),
@@ -30,7 +30,7 @@ extension Questions {
                            Answer(text: "Есть", type: .turtle)
                          ]
             ), Questions(text: "любители вы поездки на машине?",
-                         type: .single,
+                         type: .ranged,
                          answers: [
                            Answer(text: "Ненавижу", type: .dog),
                            Answer(text: "Нервничаю", type: .cat),
